@@ -62,7 +62,7 @@ function userClicked(id, el) {
   el.classList.add("selected");
 }
 
-#######
+// #######
 // another solution with xml http request
 // function getPosts(userId) {
 //   let request = new XMLHttpRequest();
