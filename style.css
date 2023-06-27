@@ -22,18 +22,17 @@ body {
 }
 
 .user {
-  width: 90%;
   background-color: #fff;
   margin: 10px auto;
   word-wrap: break-word;
   padding: 10px;
-  border-radius: 50px;
+  border-radius: 20px;
   box-shadow: 0px 5px 6px rgba(0 0 0 / .3);
   cursor: pointer;
 }
 
 .user.selected {
-  border: 5px solid orange;
+  border: 2px solid orange;
 }
 
 .posts-container {
@@ -43,7 +42,6 @@ body {
 }
 
 .posts {
-  width: 90%;
   margin: 0 auto;
 }
 
@@ -70,14 +68,15 @@ h6 {
 }
 
 @media (max-width: 567px) {
-  #content {
-    display: flex;
-    flex-direction: column;
-    margin: 15px;
+
+  .user h4,
+  .user h6 {
+    padding: 0;
+    font-size: 13px;
   }
 
-  .users-container {
-    width: 100%;
+  .post h6 {
+    padding: 0;
   }
 
   .posts-container {
